@@ -23,6 +23,10 @@ const connect = function () {
     conn.write("Name: RLF");
   });
 
+  // conn.on("data", () => {
+  //   conn.write("Move: up");
+  // });  
+
   return conn
 
 };
